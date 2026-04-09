@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שי מוצרי איכות | אלבומים, מסגרות לתמונות וקורקינטים חשמליים</title>
+  <meta
+    name="description"
+    content="שי מוצרי איכות מציעה אלבומים, מסגרות לתמונות וקורקינטים חשמליים עם דגש על איכות, מבחר, ניסיון של שנים ומשלוחים לכל הארץ."
+  />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="שי מוצרי איכות | אלבומים, מסגרות לתמונות וקורקינטים חשמליים" />
+  <meta
+    property="og:description"
+    content="מבחר אלבומים, מסגרות לתמונות וקורקינטים חשמליים עם איכות מוקפדת, שירות מקצועי ומשלוחים לכל הארץ."
+  />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#2d3328" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --bg-soft: #fbf8f2;
+      --panel: #fffdf9;
+      --ink: #20241d;
+      --ink-soft: #4f564a;
+      --accent: #6c7a4f;
+      --accent-strong: #4c5937;
+      --gold: #b79a62;
+      --line: #d9d0bf;
+      --shadow: 0 14px 38px rgba(32, 36, 29, 0.10);
+      --radius: 22px;
+      --radius-sm: 16px;
+      --container: 1220px;
+      --focus: #0f62fe;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Heebo", "Noto Sans Hebrew", Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top right, rgba(183, 154, 98, 0.08), transparent 28%),
+        radial-gradient(circle at top left, rgba(108, 122, 79, 0.08), transparent 22%),
+        linear-gradient(180deg, #fbf8f2 0%, #f6f2ea 100%);
+    }
+
+    a {
+      color: var(--accent-strong);
+      text-underline-offset: 0.18em;
+      text-decoration-thickness: 2px;
+    }
+
+    a:hover {
+      color: #313b24;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 3px;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -60px;
+      right: 16px;
+      background: #ffffff;
+      color: var(--ink);
+      padding: 12px 18px;
+      z-index: 1000;
+      border-radius: 12px;
+      border: 2px solid var(--accent);
+      font-weight: 700;
+    }
+
+    .skip-link:focus {
+      top: 16px;
+    }
+
+    .container {
+      width: min(calc(100% - 32px), var(--container));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(251, 248, 242, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(108, 122, 79, 0.18);
+      box-shadow: 0 8px 24px rgba(32, 36, 29, 0.04);
+    }
+
+    .header-inner {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 20px;
+      align-items: center;
+      min-height: 92px;
+    }
+
+    .brand {
+      display: inline-flex;
+      flex-direction: column;
+      text-decoration: none;
+      min-width: 210px;
+    }
+
+    .brand-mark {
+      font-size: 1.42rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+
+    .brand-sub {
+      font-size: 1rem;
+      color: var(--ink-soft);
+      line-height: 1.4;
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .main-nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-nav a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 500;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+
+    .main-nav a:hover {
+      background: rgba(108, 122, 79, 0.10);
+      color: var(--accent-strong);
+      transform: translateY(-1px);
+    }
+
+    .header-contact {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+      border: 1px solid transparent;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      white-space: nowrap;
+      box-shadow: 0 10px 24px rgba(32, 36, 29, 0.08);
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .action-btn.call {
+      background: var(--accent-strong);
+      color: #fff;
+    }
+
+    .action-btn.wa {
+      background: #ffffff;
+      color: var(--ink);
+      border-color: rgba(108, 122, 79, 0.24);
+    }
+
+    .burger {
+      display: none;
+      border: 1px solid rgba(108, 122, 79, 0.24);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 14px;
+      width: 54px;
+      height: 54px;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(32, 36, 29, 0.06);
+    }
+
+    .burger span,
+    .burger::before,
+    .burger::after {
+      content: "";
+      display: block;
+      width: 24px;
+      height: 3px;
+      margin: 5px auto;
+      border-radius: 999px;
+      background: var(--ink);
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .burger[aria-expanded="true"]::before {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .burger[aria-expanded="true"] span {
+      opacity: 0;
+    }
+
+    .burger[aria-expanded="true"]::after {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero {
+      padding: 72px 0 36px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .hero-copy,
+    .hero-panel {
+      background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,253,249,0.96));
+      border: 1px solid rgba(108, 122, 79, 0.16);
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-copy {
+      padding: 42px;
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero-copy::after {
+      content: "";
+      position: absolute;
+      inset: auto -80px -80px auto;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, rgba(183,154,98,0.17), transparent 70%);
+      z-index: -1;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: rgba(108, 122, 79, 0.10);
+      color: var(--accent-strong);
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 0 0 16px;
+      line-height: 1.35;
+      color: var(--ink);
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 4vw, 3.4rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: clamp(1.7rem, 3vw, 2.4rem);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: clamp(1.24rem, 2.2vw, 1.6rem);
+      font-weight: 800;
+    }
+
+    h4 {
+      font-size: 1.12rem;
+      font-weight: 700;
+    }
+
+    .lead {
+      font-size: 1.12rem;
+      color: var(--ink-soft);
+      margin: 0 0 22px;
+    }
+
+    .hero-points {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .hero-point {
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(108, 122, 79, 0.14);
+      border-radius: 18px;
+      padding: 18px 16px;
+    }
+
+    .hero-point strong {
+      display: block;
+      font-size: 1.36rem;
+      color: var(--accent-strong);
+      margin-bottom: 6px;
+      line-height: 1.2;
+    }
+
+    .hero-point span {
+      color: var(--ink-soft);
+    }
+
+    .hero-panel {
+      padding: 16px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+      background:
+        linear-gradient(180deg, rgba(76,89,55,0.06), rgba(183,154,98,0.06)),
+        #fffdf9;
+    }
+
+    .hero-card {
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(108, 122, 79, 0.14);
+      background: #fff;
+    }
+
+    .hero-card img {
+      width: 100%;
+      aspect-ratio: 16 / 11;
+      object-fit: cover;
+    }
+
+    .hero-card figcaption {
+      padding: 16px 18px 18px;
+      color: var(--ink-soft);
+      font-size: 1rem;
+    }
+
+    section {
+      padding: 34px 0;
+    }
+
+    .section-head {
+      max-width: 850px;
+      margin-bottom: 24px;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--ink-soft);
+    }
+
+    .content-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(255,253,249,0.96));
+      border: 1px solid rgba(108, 122, 79, 0.14);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .content-card p:last-child,
+    .category-card p:last-child,
+    .sub-card p:last-child,
+    .info-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .category-card,
+    .sub-card,
+    .info-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,253,249,0.98));
+      border: 1px solid rgba(108, 122, 79, 0.14);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      height: 100%;
+    }
+
+    .category-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .category-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 90px;
+      height: 90px;
+      background: radial-gradient(circle, rgba(183,154,98,0.20), transparent 68%);
+      pointer-events: none;
+    }
+
+    .category-kicker {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--accent-strong);
+      font-weight: 800;
+    }
+
+    .sub-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .sub-card {
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .sub-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      background: #f1eee8;
+    }
+
+    .sub-card-body {
+      padding: 20px;
+    }
+
+    .label {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(183,154,98,0.12);
+      color: #785f2b;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .note-strip {
+      margin-top: 22px;
+      background: linear-gradient(90deg, rgba(108,122,79,0.10), rgba(183,154,98,0.10));
+      border: 1px solid rgba(108, 122, 79, 0.16);
+      border-radius: var(--radius-sm);
+      padding: 18px 20px;
+      color: var(--ink);
+    }
+
+    .accent-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .accent-list li {
+      position: relative;
+      padding-right: 22px;
+      color: var(--ink-soft);
+    }
+
+    .accent-list li::before {
+      content: "";
+      position: absolute;
+      top: 14px;
+      right: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 6px rgba(183,154,98,0.16);
+    }
+
+    .cta-box {
+      display: grid;
+      gap: 20px;
+      background:
+        linear-gradient(135deg, rgba(76,89,55,0.95), rgba(108,122,79,0.90)),
+        var(--accent-strong);
+      color: #fff;
+      border-radius: 30px;
+      padding: 34px;
+      box-shadow: 0 20px 48px rgba(32, 36, 29, 0.16);
+    }
+
+    .cta-box h2,
+    .cta-box p,
+    .cta-box a {
+      color: #fff;
+    }
+
+    .cta-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .ghost-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.34);
+      background: rgba(255,255,255,0.10);
+      font-weight: 700;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+    .ghost-link:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.16);
+    }
+
+    .site-footer {
+      margin-top: 36px;
+      background: linear-gradient(180deg, #23291f 0%, #1b2018 100%);
+      color: #edf1e7;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr 1.1fr;
+      gap: 24px;
+      padding: 34px 0 20px;
+    }
+
+    .footer-col {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 22px;
+      padding: 22px;
+    }
+
+    .footer-col h3 {
+      color: #fff;
+      margin-bottom: 12px;
+      font-size: 1.22rem;
+    }
+
+    .footer-col p,
+    .footer-col li {
+      color: rgba(237, 241, 231, 0.88);
+      margin: 0 0 12px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .footer-col a {
+      color: #f6e7bf;
+    }
+
+    .footer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .footer-actions .action-btn {
+      box-shadow: none;
+    }
+
+    .footer-actions .wa {
+      background: #ffffff;
+      color: var(--ink);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 18px 0 26px;
+      text-align: center;
+      color: rgba(237, 241, 231, 0.86);
+    }
+
+    .footer-bottom p {
+      margin: 0 0 8px;
+    }
+
+    @media (max-width: 1120px) {
+      .header-inner {
+        grid-template-columns: auto auto;
+        gap: 14px;
+      }
+
+      .nav-wrap {
+        grid-column: 1 / -1;
+        justify-content: flex-start;
+      }
+
+      .hero-grid,
+      .footer-inner,
+      .sub-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .header-inner {
+        grid-template-columns: 1fr auto auto;
+      }
+
+      .burger {
+        display: inline-block;
+      }
+
+      .nav-wrap {
+        order: 4;
+        grid-column: 1 / -1;
+        display: none;
+      }
+
+      .nav-wrap.open {
+        display: block;
+        padding-bottom: 14px;
+      }
+
+      .main-nav ul {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .main-nav a {
+        justify-content: flex-start;
+        padding: 14px 16px;
+        border-radius: 14px;
+        background: rgba(255,255,255,0.64);
+      }
+
+      .header-contact {
+        display: none;
+      }
+
+      .hero-grid,
+      .grid-2,
+      .sub-grid,
+      .footer-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy {
+        padding: 28px;
+      }
+
+      .hero-points {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-box {
+        padding: 28px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      body {
+        font-size: 18px;
+      }
+
+      .container {
+        width: min(calc(100% - 20px), var(--container));
+      }
+
+      .site-header {
+        position: sticky;
+      }
+
+      .header-inner {
+        min-height: 84px;
+      }
+
+      .brand {
+        min-width: auto;
+      }
+
+      .brand-mark {
+        font-size: 1.24rem;
+      }
+
+      .brand-sub {
+        font-size: 0.98rem;
+      }
+
+      .hero {
+        padding-top: 46px;
+      }
+
+      .hero-copy,
+      .content-card,
+      .category-card,
+      .info-card,
+      .footer-col {
+        border-radius: 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content" title="דילוג לתוכן המרכזי">דילוג לתוכן המרכזי</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" title="מעבר לראש הדף של שי מוצרי איכות">
+        <span class="brand-mark">שי מוצרי איכות | Shikko</span>
+        <span class="brand-sub">אלבומים, מסגרות לתמונות וקורקינטים חשמליים</span>
+      </a>
+
+      <button
+        class="burger"
+        type="button"
+        aria-label="פתיחת תפריט ניווט"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        title="פתיחת תפריט ניווט"
+      >
+        <span></span>
+      </button>
+
+      <div class="nav-wrap" id="navWrap">
+        <nav class="main-nav" id="main-navigation" aria-label="ניווט ראשי">
+          <ul>
+            <li><a href="#about" title="מעבר לחלק אודות">אודות</a></li>
+            <li><a href="#categories" title="מעבר לחלק הקטגוריות הראשיות">קטגוריות</a></li>
+            <li><a href="#albums" title="מעבר לחלק האלבומים">אלבומים</a></li>
+            <li><a href="#frames" title="מעבר לחלק המסגרות לתמונות">מסגרות לתמונות</a></li>
+            <li><a href="#scooters" title="מעבר לחלק הקורקינטים החשמליים">קורקינטים חשמליים</a></li>
+            <li><a href="#contact" title="מעבר לחלק הקשר">קשר</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-contact" aria-label="דרכי התקשרות מהירות">
+        <a class="action-btn call" href="tel:099508158" title="התקשרות לשי מוצרי איכות">09-9508158</a>
+        <a class="action-btn wa" href="https://wa.me/972507544556" target="_blank" rel="noopener" title="פתיחת שיחה בוואטסאפ עם שי מוצרי איכות">ווטסאפ 050-754-4556</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">איכות, מבחר וניסיון של שנים</div>
+          <h1 id="hero-title">שי מוצרי איכות מציגה עולם של אלבומים, מסגרות לתמונות וקורקינטים חשמליים</h1>
+          <p class="lead">
+            כשמחפשים ספק רציני עם הבנה עמוקה בחומרי גלם, בטעם עיצובי, בקטלוג רחב וביכולת להציע
+            פתרון שנשאר רלוונטי לאורך זמן, חשוב לעבוד עם עסק שבנה לעצמו מוניטין אמיתי. שי מוצרי
+            איכות משלבת מסורת של ייצור, פיתוח ויבוא עם התאמה לשוק הישראלי, ומציעה ללקוחות פרטיים,
+            חנויות, מוסדות וגורמים מקצועיים מגוון עשיר של מוצרים לבית, למתנה, לתצוגה ולניידות
+            עירונית חכמה.
+          </p>
+          <p class="lead">
+            הדגש כאן אינו רק על מכירה, אלא על מבחר מדויק, נראות מוקפדת, תחושה איכותית ושירות שמבין
+            מה הלקוח באמת מחפש: אלבום שנעים לפתוח גם אחרי שנים, מסגרת שיודעת להדגיש תמונה במקום
+            להשתלט עליה, או קורקינט חשמלי שמדבר בשפה של נוחות, שימושיות ועיצוב עכשווי.
+          </p>
+
+          <div class="hero-points" aria-label="נתונים מרכזיים">
+            <div class="hero-point">
+              <strong>44 שנות ניסיון</strong>
+              <span>בייצור ושיווק אלבומי תמונות ומסגרות</span>
+            </div>
+            <div class="hero-point">
+              <strong>אלפי מוצרים</strong>
+              <span>מבחר רחב שפונה לפרטיים, לחנויות ולמוסדות</span>
+            </div>
+            <div class="hero-point">
+              <strong>פריסה ארצית</strong>
+              <span>זמינות ללקוחות בכל הארץ עם הזמנות ומשלוחים</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="תמונות נבחרות של מוצרים">
+          <figure class="hero-card">
+            <img src="אלבום מגנטי.jpg" alt="אלבום מגנטי מבית שי מוצרי איכות" />
+            <figcaption>
+              קווי מוצר שמדגישים חומרי גלם נעימים לעין, עבודה מדויקת ונראות קלאסית שמתאימה לבית,
+              למתנה ולשימור זיכרונות.
+            </figcaption>
+          </figure>
+          <figure class="hero-card">
+            <img src="אלבומי כיסים.jpg" alt="מבחר אלבומי כיסים צבעוניים" />
+            <figcaption>
+              אלבומים מעוצבים במגוון סגנונות, צבעים ופורמטים, עם התאמה רחבה לשימוש אישי, משפחתי
+              ומוסדי.
+            </figcaption>
+          </figure>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="about-title">עסק ותיק עם התמחות שנבנתה לאורך שנים</h2>
+          <p>
+            שי מוצרי איכות ביססה את שמה דרך שילוב בין יציבות, מבחר וסטנדרט עקבי של איכות. מדובר
+            בחברה עם ותק של עשרות שנים, שבמהלכן פותחו ועוצבו אלפי מוצרים והצטבר ניסיון משמעותי
+            בייצור, ביבוא, בהתאמת מוצרים לצרכים משתנים וביצירת קטלוג שמסוגל לדבר עם קהלים שונים.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <p>
+            בתחום האלבומים והמסגרות, הניסיון הזה מורגש בכל פרט: באופן שבו הכריכה נראית ביד, בבחירת
+            הצבעים, בהתאמה בין הפורמט לבין השימוש האמיתי, וביכולת להציע מגוון רחב בלי לוותר על קו
+            מסודר ומכובד. יש כאן הבנה עמוקה של מה אנשים מבקשים לשמור, להציג, להעניק ולמסגר. לכן
+            המבחר כולל פתרונות שמתאימים לרגעים אישיים, למשפחות, לבתי ספר, למתנות, לפרויקטים
+            מוסדיים ולחנויות שמחפשות לעבוד עם יבואן שמכיר את השוק לעומק.
+          </p>
+          <p>
+            לצד עולם הצילום, החברה פעילה גם בתחום הניידות החשמלית ומציעה קורקינטים חשמליים
+            ומוצרים נלווים תחת סביבת מכירה מקצועית, עם דגש על מותגים, דגמים ופתרונות שמתאימים
+            למציאות היומיומית בישראל. החיבור בין שני התחומים אולי נראה מפתיע במבט ראשון, אבל הוא
+            משקף תפיסה ברורה: להביא ללקוחות מוצרים שימושיים, איכותיים ומדויקים, ממקורות ייצור
+            מבוקרים, עם התאמה לפרקטיקה ולא רק למראה.
+          </p>
+          <p>
+            מי שמכיר את התחום יודע שהבדל אמיתי בין ספק רגיל לבין עסק מוביל נמדד ביכולת להחזיק
+            מגוון, לשמור על רמת גימור יציבה ולהציע ללקוח תחושת ביטחון. זה בדיוק המקום שבו שי מוצרי
+            איכות בולטת: שילוב בין ניסיון רב, קטלוג עשיר, חשיבה מסחרית נכונה ומחויבות למוצר שמרגיש
+            נכון מהרגע הראשון.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="categories-title">שלוש קטגוריות ראשיות שמרכזות איכות, שימושיות וסגנון</h2>
+          <p>
+            הקטלוג של שי מוצרי איכות בנוי כך שכל קטגוריה עומדת בפני עצמה, אבל יחד הן יוצרות תמונה
+            מלאה של עסק שיודע לתת מענה למגוון צרכים ברמה גבוהה.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="category-card">
+            <span class="category-kicker">קטגוריה ראשית 01</span>
+            <h3>אלבומים</h3>
+            <p>
+              מבחר רחב של אלבומים וכריכות במגוון סגנונות, צבעים וחומרים. זו קטגוריה שמיועדת למי
+              שמבקש לשמור זיכרונות באופן נגיש, יפה ומסודר, עם התאמה לאירועים משפחתיים, לעבודות
+              שורשים, למתנות ולשימוש שוטף בבית או במסגרת מקצועית.
+            </p>
+          </article>
+
+          <article class="category-card">
+            <span class="category-kicker">קטגוריה ראשית 02</span>
+            <h3>מסגרות לתמונות</h3>
+            <p>
+              עולם של מסגרות לפינות מגורים, למשרדים, לתעודות, לתמונות משפחתיות, ליצירות ולמתנות.
+              הדגש הוא על איזון בין עיצוב נקי לבין נוכחות נכונה בחלל, עם מגוון דגמים, חומרים וגדלים
+              שמאפשרים התאמה מדויקת לכל תמונה ולכל סגנון עיצובי.
+            </p>
+          </article>
+
+          <article class="category-card">
+            <span class="category-kicker">קטגוריה ראשית 03</span>
+            <h3>קורקינטים חשמליים</h3>
+            <p>
+              קטגוריה עדכנית שמרחיבה את ההיצע לעולם הניידות העירונית. כאן פוגשים דגמים מובילים,
+              קו מוצרים שמתאים להתנהלות יומיומית חכמה, וגישה שמחברת בין יבוא, נוחות שימוש, איכות
+              וחשיבה פרקטית ללקוח שמחפש פתרון תחבורה זמין ומודרני.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="albums" aria-labelledby="albums-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="albums-title">ארבע תתי קטגוריות בולטות בעולם האלבומים</h2>
+          <p>
+            עולם האלבומים של שי מוצרי איכות מציע בחירה רחבה לא רק במראה, אלא גם באופן השימוש,
+            במבנה הפנימי ובאופי החוויה שהאלבום יוצר.
+          </p>
+        </div>
+
+        <div class="sub-grid">
+          <article class="sub-card">
+            <img src="אלבומי כיסים.jpg" alt="אלבומי כיסים במגוון עיצובים" />
+            <div class="sub-card-body">
+              <span class="label">תת קטגוריה</span>
+              <h3>אלבומי כיסים</h3>
+              <p>
+                פתרון נוח, מסודר ומהיר לארגון תמונות, עם גישה פשוטה ונעימה לעיון חוזר. מי שמחפש
+                סדר, אחידות ומבחר צבעים וגדלים, ימצא בקטגוריית
+                <a
+                  href="https://www.shikko.com/category/%D7%90%D7%9C%D7%91%D7%95%D7%9E%D7%99-%D7%9B%D7%99%D7%A1%D7%99%D7%9D"
+                  target="_blank"
+                  rel="noopener"
+                  title="צפייה בקטגוריית אלבומי כיסים באתר שי מוצרי איכות"
+                >אלבומי כיסים</a>
+                אפשרויות שמתאימות לבית, למשפחה, לשי ולשימוש יומיומי.
+              </p>
+            </div>
+          </article>
+
+          <article class="sub-card">
+            <img src="אלבום מגנטי.jpg" alt="אלבום מגנטי קלאסי בגימור בהיר" />
+            <div class="sub-card-body">
+              <span class="label">תת קטגוריה</span>
+              <h3>אלבום מגנטי</h3>
+              <p>
+                אלבום שמציע חוויית עיצוב גמישה יותר, עם אפשרות לשלב תמונות באופן חופשי ובמראה אישי.
+                הוא מתאים במיוחד למי שמחפש אלבום עם נוכחות מעט חגיגית יותר ועם תחושת עבודת יד.
+              </p>
+            </div>
+          </article>
+
+          <article class="sub-card">
+            <img src="אלבומי פרגמנט.jpg" alt="אלבומי פרגמנט צבעוניים במבחר דגמים" />
+            <div class="sub-card-body">
+              <span class="label">תת קטגוריה</span>
+              <h3>אלבומי פרגמנט</h3>
+              <p>
+                קטגוריה עם אופי קלאסי ומסודר, שמתאימה למי שמעריך מראה מסורתי יותר ושמירה נעימה על
+                התמונות לאורך זמן. השילוב בין עיצוב מוכר לבין איכות חומר יוצר מוצר שנשאר רלוונטי
+                גם אחרי שנים.
+              </p>
+            </div>
+          </article>
+
+          <article class="sub-card">
+            <img src="אלבומי שורשים.jpg" alt="אלבום שורשים מעוצב עם חזית עץ" />
+            <div class="sub-card-body">
+              <span class="label">תת קטגוריה</span>
+              <h3>אלבומי שורשים</h3>
+              <p>
+                אלבומים שמתאימים במיוחד לבתי ספר, למשפחות ולפרויקטים עם ערך אישי וחינוכי. אלה
+                מוצרים שיודעים לשלב בין פונקציונליות, תוכן רגשי ונראות שמכבדת את הסיפור שנכנס פנימה.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="note-strip">
+          האלבומים של שי מוצרי איכות פונים למי שלא מוכן להסתפק בפריט טכני בלבד. כאן יש חשיבה על
+          חומר, על תחושה, על נראות ועל שימוש אמיתי, כך שהתוצאה הסופית מרגישה שלמה גם מבחוץ וגם
+          מבפנים.
+        </div>
+      </div>
+    </section>
+
+    <section id="frames" aria-labelledby="frames-title">
+      <div class="container">
+        <div class="grid-2">
+          <div class="info-card">
+            <h2 id="frames-title">מסגרות לתמונות שמעניקות לתמונה נוכחות נכונה</h2>
+            <p>
+              מסגרת טובה לא אמורה להסיח את הדעת מהתמונה, אלא להבליט אותה בצורה מדויקת. לכן מבחר
+              המסגרות של שי מוצרי איכות מתבסס על רעיון פשוט אך חשוב: לתת מענה רחב ככל האפשר בלי
+              לאבד את הקו הקלאסי, האסתטי והפרקטי. אפשר למצוא כאן פתרונות לתמונות משפחתיות, לתעודות,
+              לקולאז'ים, ליצירות ולשימושים דקורטיביים בבית, במשרד ובחללים מסחריים.
+            </p>
+            <p>
+              החוזקה הגדולה של הקטגוריה הזו היא היכולת להציע מגוון שנראה מסודר, מכבד ונגיש לבחירה.
+              לקוחות שמחפשים מראה מודרני, נקי או קלאסי יכולים לעבוד מתוך היצע רחב ולבחור מה מתאים
+              להם באמת, בלי תחושה של קטלוג עמוס מדי ובלי להתפשר על האיכות של המוצר עצמו.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>למה הקטגוריה הזו כל כך חזקה</h3>
+            <ul class="accent-list">
+              <li>מגוון גדול של דגמים, חומרים ופורמטים עבור בתים, משרדים, מוסדות וחנויות.</li>
+              <li>התאמה לתמונות משפחתיות, לתעודות, ליצירות, למתנות ולפתרונות תצוגה נקיים.</li>
+              <li>איזון נכון בין מסגרת מעוצבת לבין שמירה על מרכזיות התמונה עצמה.</li>
+              <li>נראות קלאסית ומכובדת שמתאימה גם לעיצוב ביתי וגם לסביבה מקצועית.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scooters" aria-labelledby="scooters-title">
+      <div class="container">
+        <div class="grid-2">
+          <div class="info-card">
+            <h2 id="scooters-title">קורקינטים חשמליים כחלק מקטלוג שמבין את השוק הישראלי</h2>
+            <p>
+              לצד עולם האלבומים והמסגרות, שי מוצרי איכות פועלת גם בתחום הקורקינטים החשמליים ומציגה
+              קטגוריה עדכנית שמתאימה לסגנון החיים העירוני של היום. זו בחירה שמדגישה את היכולת של
+              החברה להתרחב אל תחומים מבוקשים תוך שמירה על קו ברור של איכות, יבוא מסודר ומבחר נגיש
+              לצרכן.
+            </p>
+            <p>
+              עבור לקוחות שמחפשים פתרון תחבורה אישי ונוח, חשוב לפגוש סביבת מכירה שמבינה דגמים,
+              אביזרים והקשר היומיומי של השימוש. הקורקינטים החשמליים משלימים כאן את התמונה של עסק
+              שלא נשאר מקובע בתחום אחד בלבד, אלא ממשיך להתפתח ולספק מוצרים רלוונטיים ללקוחות בכל
+              הארץ.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>הערך המוסף של הקטגוריה</h3>
+            <ul class="accent-list">
+              <li>מבחר דגמים בקטגוריה עדכנית שמתאימה להתניידות עירונית נוחה ויעילה.</li>
+              <li>מוצרים נלווים ואביזרים משלימים תחת מעטפת מסחרית מסודרת.</li>
+              <li>גישה שמחברת בין יבוא, בחירה חכמה ומענה ללקוחות שמחפשים פתרונות שימושיים.</li>
+              <li>שילוב טבעי בין מותג ותיק לבין תחום מוצר מודרני עם ביקוש גבוה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <h2 id="contact-title">כשמחפשים קטלוג רחב, ניסיון אמיתי וסטנדרט גבוה, פונים לשי מוצרי איכות</h2>
+            <p>
+              אם אתם מחפשים אלבומים, מסגרות לתמונות או קורקינטים חשמליים מתוך מבחר שמרגיש מקצועי,
+              ברור ואמין, זה בדיוק המקום להתחיל ממנו. שי מוצרי איכות מציעה שילוב בין ניסיון של שנים,
+              קטלוג עשיר, חשיבה מסחרית נכונה ושירות שמדבר בגובה העיניים. לעדכונים, השראה ומידע נוסף
+              אפשר גם לבקר בעמוד הפייסבוק של החברה.
+            </p>
+          </div>
+
+          <div class="cta-links">
+            <a
+              class="ghost-link"
+              href="https://www.facebook.com/SHIKKO.CO.IL"
+              target="_blank"
+              rel="noopener"
+              title="מעבר לעמוד הפייסבוק של שי מוצרי איכות"
+            >לעמוד הפייסבוק של שי מוצרי איכות</a>
+            <a class="ghost-link" href="#albums" title="מעבר לחלק האלבומים">לעולם האלבומים</a>
+            <a class="ghost-link" href="#frames" title="מעבר לחלק המסגרות לתמונות">למסגרות לתמונות</a>
+            <a class="ghost-link" href="#scooters" title="מעבר לחלק הקורקינטים החשמליים">לקורקינטים החשמליים</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-labelledby="footer-title">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h3 id="footer-title">שי מוצרי איכות</h3>
+        <p>
+          עסק מוביל עם התמחות רבת שנים בייצור, ביבוא ובשיווק של אלבומים, מסגרות לתמונות ומוצרים
+          נבחרים נוספים, לצד קטגוריה עדכנית של קורקינטים חשמליים. שילוב בין ניסיון, מבחר, איכות
+          ונראות קלאסית.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h3>ניווט מהיר</h3>
+        <ul>
+          <li><a href="#about" title="מעבר לחלק אודות">אודות</a></li>
+          <li><a href="#categories" title="מעבר לחלק הקטגוריות הראשיות">קטגוריות ראשיות</a></li>
+          <li><a href="#albums" title="מעבר לחלק האלבומים">אלבומים</a></li>
+          <li><a href="#frames" title="מעבר לחלק המסגרות לתמונות">מסגרות לתמונות</a></li>
+          <li><a href="#scooters" title="מעבר לחלק הקורקינטים החשמליים">קורקינטים חשמליים</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>תחומי פעילות</h3>
+        <ul>
+          <li>אלבומי כיסים</li>
+          <li>אלבום מגנטי</li>
+          <li>אלבומי פרגמנט</li>
+          <li>אלבומי שורשים</li>
+          <li>מסגרות לתמונות</li>
+          <li>קורקינטים חשמליים</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>יצירת קשר ופרטיות</h3>
+        <p>
+          אנו מכבדים את פרטיות המשתמשים באתר זה. דף הנחיתה אינו כולל טפסי השארת פרטים ואינו אוסף
+          מידע אישי באופן ישיר. ייתכן ונעשה שימוש בכלי סטטיסטיקה וניתוח תנועה (כגון cookies) לצורך
+          שיפור חוויית המשתמש.
+        </p>
+        <p>
+          האתר מאוחסן ומופעל באמצעות פלטפורמת github, וייתכן כי נתונים טכניים נאספים בהתאם למדיניות
+          הפלטפורמה. ניתן לעיין במדיניות הפרטיות של github בקישור הבא:
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+            target="_blank"
+            rel="noopener"
+            title="מעבר למדיניות הפרטיות של GitHub"
+          >מדיניות הפרטיות של GitHub</a>.
+        </p>
+        <div class="footer-actions">
+          <a class="action-btn call" href="tel:099508158" title="התקשרות לשי מוצרי איכות">09-9508158</a>
+          <a class="action-btn wa" href="https://wa.me/972507544556" target="_blank" rel="noopener" title="פתיחת שיחה בוואטסאפ עם שי מוצרי איכות">ווטסאפ 050-754-4556</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>נבנה עם היררכיית כותרות, קישורי עוגן, ALT לתמונות, TITLE לקישורים, גודל טקסט מינימלי של 18px וניגודיות משופרת.</p>
+      <p>
+        <a title="נבנה על ידי פרוסייטס" href="https://prosites.co.il/" rel="noopener">נבנה על ידי פרוסייטס</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const burger = document.querySelector(".burger");
+      const navWrap = document.getElementById("navWrap");
+      const navLinks = document.querySelectorAll(".main-nav a");
+
+      if (!burger || !navWrap) return;
+
+      burger.addEventListener("click", function () {
+        const isOpen = navWrap.classList.toggle("open");
+        burger.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      navLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+          if (window.innerWidth <= 860) {
+            navWrap.classList.remove("open");
+            burger.setAttribute("aria-expanded", "false");
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
